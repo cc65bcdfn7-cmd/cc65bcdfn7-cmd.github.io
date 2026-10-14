@@ -1,0 +1,10 @@
+:root{color-scheme:dark;--ink:#f2ecdc;--muted:#bbb7ad;--gold:#e3c67e;--bg:#101925}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Hiragino Sans",sans-serif;line-height:1.9}
+a{color:var(--gold);text-underline-offset:.22em;overflow-wrap:anywhere}a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+header,main,footer{max-width:900px;margin:auto;padding:24px}header{border-bottom:1px solid #344050;display:flex;gap:20px;justify-content:space-between;flex-wrap:wrap}
+.brand{font-weight:700;text-decoration:none}.brand span{color:var(--ink);margin-left:12px}nav{display:flex;gap:20px}main{max-width:800px;padding-top:56px;padding-bottom:64px;min-height:65vh}
+.eyebrow{letter-spacing:.16em;color:var(--gold);font-size:.8rem}h1{font-family:"Hiragino Mincho ProN",serif;font-size:clamp(1.7rem,5vw,2.5rem);line-height:1.4;margin:16px 0 36px}
+h2{font-size:1.2rem;margin-top:40px;border-left:3px solid var(--gold);padding-left:14px}h3{font-size:1rem;margin-top:28px;color:var(--gold)}p{overflow-wrap:anywhere}.lead{font-size:1.3rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:16px;margin:36px 0}.cards>a{border:1px solid #4f5360;padding:22px;text-decoration:none;background:#182536;border-radius:8px}.cards h2{border:0;padding:0;margin:0}.cards p{color:var(--muted);margin-bottom:0}
+footer{border-top:1px solid #344050;color:var(--muted);font-size:.85rem}.skip{position:absolute;top:-80px;left:12px;background:var(--bg);padding:10px}.skip:focus{top:0}
+@media(max-width:480px){header,main,footer{padding-left:20px;padding-right:20px}main{padding-top:32px}nav{font-size:.9rem}}
