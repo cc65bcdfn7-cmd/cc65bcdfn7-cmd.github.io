@@ -19,6 +19,9 @@ p { margin: 8px 0; overflow-wrap: anywhere; }
 .muted { color: var(--muted); font-size: .9rem; }
 a { color: var(--accent); }
 nav { margin-top: 40px; font-size: .9rem; }
+.stores { margin: 16px 0; }
+.stores a { display: inline-block; margin: 4px 8px 4px 0; padding: 8px 16px;
+  border: 1px solid var(--accent); border-radius: 8px; text-decoration: none; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -26,14 +29,15 @@ nav { margin-top: 40px; font-size: .9rem; }
 <p class="muted"><a href="index.html" hreflang="ja">日本語</a> · <a href="index-en.html" hreflang="en">English</a> · <a href="index-zh-Hans.html" hreflang="zh-Hans">简体中文</a> · 繁體中文 · <a href="index-ko.html" hreflang="ko">한국어</a></p>
 <h1>麻將效率 支援</h1>
 <p class="muted">用實戰形式的何切題學習牌效率</p>
+<p class="stores"><a href="https://play.google.com/store/apps/details?id=jp.nakajimano.mahjongefficiency">在 Google Play 下載</a></p>
 <h2>聯絡我們</h2>
 <p>問題回報與意見請寄信至 <a href="mailto:mebaegames@gmail.com">mebaegames@gmail.com</a>。附上裝置型號、系統版本與發生的狀況會很有幫助。</p>
 <h2>常見問題</h2>
-<p><strong>換手機後段位分不見了</strong><br>從 iPhone 換到 iPhone 時，若開啟了 iCloud 鑰匙圈，資料會自動轉移。若沒有轉移，或需要與 Android 之間轉移，請在舊裝置的設定中選擇「轉移到其他裝置」顯示代碼，再於新裝置的設定中「用代碼繼承」輸入該代碼。代碼有效期為 30 分鐘，只能使用一次。轉移後舊裝置將無法繼續遊玩。若舊裝置已不在手邊，段位分與紀錄無法復原。</p>
-<p><strong>想刪除資料</strong><br>在設定中選擇「刪除全部資料」，即可刪除伺服器上的匿名玩家資訊（匿名 ID、段位分、作答紀錄）以及裝置內的玩家資料與儲存的牌譜。</p>
+<p><strong>換手機或重新安裝後段位分不見了</strong><br>從 iPhone 換到 iPhone 時，若開啟了 iCloud 鑰匙圈，資料會自動轉移。Android 不會自動轉移應用程式資料，解除安裝應用程式也會刪除裝置上的紀錄。若沒有轉移、需要與 Android 之間轉移，或要在 Android 上重新安裝應用程式，請先在舊裝置（或解除安裝前的應用程式）的設定中選擇「轉移到其他裝置」顯示代碼，再於新裝置的設定中「用代碼繼承」輸入該代碼。代碼有效期為 30 分鐘，只能使用一次。轉移後舊裝置將無法繼續遊玩。若舊裝置已不在手邊，段位分與紀錄無法復原。</p>
+<p id="delete-data"><strong>想刪除資料</strong><br>在設定中選擇「刪除全部資料」，即可刪除伺服器上的匿名玩家資訊（匿名 ID、段位分、作答紀錄）以及裝置內的玩家資料與儲存的牌譜。若無法開啟應用程式或無法在設定中刪除，請附上玩家編號（顯示於設定中）寄信至 mebaegames@gmail.com 申請刪除。</p>
 <p><strong>無法開始分數挑戰</strong><br>分數挑戰每天可免費進行 3 組。之後每觀看 1 則廣告可追加 1 組。每天會恢復為 3 組。未完成的一組隨時可以繼續。</p>
 <p><strong>出現「無法連線到伺服器」</strong><br>分數挑戰與牌效率解析需要網路連線。請在訊號良好的地方再試一次。</p>
-<p><strong>關於廣告</strong><br>廣告透過 Google AdMob 顯示。不使用個人化廣告，也不會要求追蹤許可。</p>
+<p><strong>關於廣告</strong><br>廣告透過 Google AdMob 顯示。不使用個人化廣告。在 iOS 上不會要求追蹤許可。在 Android 上，即使是非個人化廣告，Google 也可能為限制顯示次數及防範詐欺而使用廣告 ID（可在裝置設定中重設或刪除）。</p>
 <p><strong>投稿不見了</strong><br>「大家的何切」中的投稿若屬廣告、騷擾或與麻將無關等不當內容，營運方可能會刪除。詳情請參閱隱私權政策中的「關於投稿」。</p>
 <p><strong>無法投稿（每天 5 次）</strong><br>「大家的何切」每天最多可投稿 5 次。隔天即可再次投稿。</p>
 <nav><a href="privacy-zh-Hant.html">隱私權政策</a></nav>

@@ -19,6 +19,9 @@ p { margin: 8px 0; overflow-wrap: anywhere; }
 .muted { color: var(--muted); font-size: .9rem; }
 a { color: var(--accent); }
 nav { margin-top: 40px; font-size: .9rem; }
+.stores { margin: 16px 0; }
+.stores a { display: inline-block; margin: 4px 8px 4px 0; padding: 8px 16px;
+  border: 1px solid var(--accent); border-radius: 8px; text-decoration: none; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -26,14 +29,15 @@ nav { margin-top: 40px; font-size: .9rem; }
 <p class="muted">日本語 · <a href="index-en.html" hreflang="en">English</a> · <a href="index-zh-Hans.html" hreflang="zh-Hans">简体中文</a> · <a href="index-zh-Hant.html" hreflang="zh-Hant">繁體中文</a> · <a href="index-ko.html" hreflang="ko">한국어</a></p>
 <h1>麻雀効率 サポート</h1>
 <p class="muted">実戦形式で学ぶ牌効率・何切る</p>
+<p class="stores"><a href="https://play.google.com/store/apps/details?id=jp.nakajimano.mahjongefficiency">Google Play で手に入れよう</a></p>
 <h2>お問い合わせ</h2>
-<p>不具合・ご意見は <a href="mailto:mebaegames@gmail.com">mebaegames@gmail.com</a> までメールでお送りください。お使いの端末・iOSのバージョン・起きたことを添えていただけると助かります。</p>
+<p>不具合・ご意見は <a href="mailto:mebaegames@gmail.com">mebaegames@gmail.com</a> までメールでお送りください。お使いの端末・OS（iOS / Android）のバージョン・起きたことを添えていただけると助かります。</p>
 <h2>よくある質問</h2>
-<p><strong>機種変更したらレートが消えた</strong><br>iPhone から iPhone への機種変更は、iCloudキーチェーンが有効なら自動で引き継がれます。引き継がれていない場合や、Android との間で移す場合は、前の端末の設定画面から「別の端末へ引き継ぐ」でコードを出し、新しい端末の設定画面の「コードで引き継ぐ」へ入力してください。コードは30分間だけ有効で、1回使うと無効になります。引き継ぐと前の端末では遊べなくなります。前の端末が手元に無い場合は、レートと履歴を元に戻すことはできません。</p>
-<p><strong>データを消したい</strong><br>設定画面の「すべてのデータを削除」から、サーバー上の匿名プレイヤー情報（匿名ID・レート・回答履歴）と、端末内のプレイヤーデータ・保存牌譜を削除できます。</p>
+<p><strong>機種変更・入れ直しでレートが消えた</strong><br>iPhone から iPhone への機種変更は、iCloudキーチェーンが有効なら自動で引き継がれます。Android はアプリのデータを自動では引き継がず、アプリを削除すると記録も端末から消えます。引き継がれていない場合、Android との間で移す場合、Android でアプリを入れ直す場合は、前の端末（入れ直す前のアプリ）の設定画面から「別の端末へ引き継ぐ」でコードを出し、新しい端末の設定画面の「コードで引き継ぐ」へ入力してください。コードは30分間だけ有効で、1回使うと無効になります。引き継ぐと前の端末では遊べなくなります。前の端末が手元に無い場合は、レートと履歴を元に戻すことはできません。</p>
+<p id="delete-data"><strong>データを消したい</strong><br>設定画面の「すべてのデータを削除」から、サーバー上の匿名プレイヤー情報（匿名ID・レート・回答履歴）と、端末内のプレイヤーデータ・保存牌譜を削除できます。アプリを開けないなど設定画面から削除できない場合は、プレイヤー番号（設定画面に表示）を添えて mebaegames@gmail.com へ削除をご依頼ください。</p>
 <p><strong>レートチャレンジが始められない</strong><br>レートチャレンジは1日3セットまで無料です。それ以降は、広告を1本見ると1セット追加で挑戦できます。日付が変わると3セットに戻ります。途中のセットの続きは、回数に関係なく再開できます。</p>
 <p><strong>「サーバーに接続できません」と出る</strong><br>レートチャレンジと牌効率解析にはネットワーク接続が必要です。電波の届く場所でもう一度お試しください。</p>
-<p><strong>広告について</strong><br>広告は Google AdMob で表示しています。利用者ごとに合わせた広告は使わず、トラッキングの許可も求めません。</p>
+<p><strong>広告について</strong><br>広告は Google AdMob で表示しています。利用者ごとに合わせた広告は使いません。iOS ではトラッキングの許可を求めません。Android では、パーソナライズされない広告でも、表示回数の上限や不正防止のために Google が広告識別子（Android の「広告 ID」）を使うことがあります（端末の設定からリセット・削除できます）。</p>
 <p><strong>投稿が消えた</strong><br>「みんなの何切る」の投稿は、宣伝・嫌がらせ・麻雀と関係のない内容など、不適切なものを運営が削除する場合があります。詳しくはプライバシーポリシーの「投稿について」をご覧ください。</p>
 <p><strong>投稿できない（1日5回まで）</strong><br>「みんなの何切る」への投稿は1日5回までです。日付が変わるとまた投稿できます。</p>
 <nav><a href="privacy.html">プライバシーポリシー</a></nav>

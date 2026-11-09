@@ -19,6 +19,9 @@ p { margin: 8px 0; overflow-wrap: anywhere; }
 .muted { color: var(--muted); font-size: .9rem; }
 a { color: var(--accent); }
 nav { margin-top: 40px; font-size: .9rem; }
+.stores { margin: 16px 0; }
+.stores a { display: inline-block; margin: 4px 8px 4px 0; padding: 8px 16px;
+  border: 1px solid var(--accent); border-radius: 8px; text-decoration: none; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -26,14 +29,15 @@ nav { margin-top: 40px; font-size: .9rem; }
 <p class="muted"><a href="index.html" hreflang="ja">日本語</a> · <a href="index-en.html" hreflang="en">English</a> · 简体中文 · <a href="index-zh-Hant.html" hreflang="zh-Hant">繁體中文</a> · <a href="index-ko.html" hreflang="ko">한국어</a></p>
 <h1>麻将效率 支持</h1>
 <p class="muted">用实战形式的何切题学习牌效率</p>
+<p class="stores"><a href="https://play.google.com/store/apps/details?id=jp.nakajimano.mahjongefficiency">在 Google Play 下载</a></p>
 <h2>联系我们</h2>
 <p>问题反馈和意见请发送邮件至 <a href="mailto:mebaegames@gmail.com">mebaegames@gmail.com</a>。附上设备型号、系统版本和发生的情况会很有帮助。</p>
 <h2>常见问题</h2>
-<p><strong>换手机后段位分不见了</strong><br>从 iPhone 换到 iPhone 时，若开启了 iCloud 钥匙串，数据会自动迁移。如果没有迁移，或需要与 Android 之间迁移，请在旧设备的设置中选择“转移到其他设备”显示代码，再在新设备的设置中“用代码继承”输入该代码。代码有效期为 30 分钟，只能使用一次。迁移后旧设备将无法继续游玩。如果旧设备已不在手边，段位分和记录无法恢复。</p>
-<p><strong>想删除数据</strong><br>在设置中选择“删除全部数据”，即可删除服务器上的匿名玩家信息（匿名 ID、段位分、答题记录）以及设备内的玩家数据和保存的牌谱。</p>
+<p><strong>换手机或重新安装后段位分不见了</strong><br>从 iPhone 换到 iPhone 时，若开启了 iCloud 钥匙串，数据会自动迁移。Android 不会自动迁移应用数据，卸载应用也会删除设备上的记录。如果没有迁移、需要与 Android 之间迁移，或要在 Android 上重新安装应用，请先在旧设备（或卸载前的应用）的设置中选择“转移到其他设备”显示代码，再在新设备的设置中“用代码继承”输入该代码。代码有效期为 30 分钟，只能使用一次。迁移后旧设备将无法继续游玩。如果旧设备已不在手边，段位分和记录无法恢复。</p>
+<p id="delete-data"><strong>想删除数据</strong><br>在设置中选择“删除全部数据”，即可删除服务器上的匿名玩家信息（匿名 ID、段位分、答题记录）以及设备内的玩家数据和保存的牌谱。如无法打开应用或无法在设置中删除，请附上玩家编号（显示在设置中）发送邮件至 mebaegames@gmail.com 申请删除。</p>
 <p><strong>无法开始分数挑战</strong><br>分数挑战每天可免费进行 3 组。之后每观看 1 个广告可追加 1 组。每天会恢复为 3 组。未完成的一组随时可以继续。</p>
 <p><strong>提示“无法连接服务器”</strong><br>分数挑战和牌效率解析需要网络连接。请在信号良好的地方重试。</p>
-<p><strong>关于广告</strong><br>广告通过 Google AdMob 显示。不使用个性化广告，也不会请求跟踪许可。</p>
+<p><strong>关于广告</strong><br>广告通过 Google AdMob 显示。不使用个性化广告。在 iOS 上不会请求跟踪许可。在 Android 上，即使是非个性化广告，Google 也可能为限制展示次数和防止欺诈而使用广告 ID（可在设备设置中重置或删除）。</p>
 <p><strong>投稿不见了</strong><br>“大家的何切”中的投稿如属广告、骚扰或与麻将无关等不当内容，运营方可能会删除。详情请参阅隐私政策中的“关于投稿”。</p>
 <p><strong>无法投稿（每天 5 次）</strong><br>“大家的何切”每天最多可投稿 5 次。第二天即可再次投稿。</p>
 <nav><a href="privacy-zh-Hans.html">隐私政策</a></nav>

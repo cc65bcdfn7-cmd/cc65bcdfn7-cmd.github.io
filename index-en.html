@@ -19,6 +19,9 @@ p { margin: 8px 0; overflow-wrap: anywhere; }
 .muted { color: var(--muted); font-size: .9rem; }
 a { color: var(--accent); }
 nav { margin-top: 40px; font-size: .9rem; }
+.stores { margin: 16px 0; }
+.stores a { display: inline-block; margin: 4px 8px 4px 0; padding: 8px 16px;
+  border: 1px solid var(--accent); border-radius: 8px; text-decoration: none; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -26,14 +29,15 @@ nav { margin-top: 40px; font-size: .9rem; }
 <p class="muted"><a href="index.html" hreflang="ja">日本語</a> · English · <a href="index-zh-Hans.html" hreflang="zh-Hans">简体中文</a> · <a href="index-zh-Hant.html" hreflang="zh-Hant">繁體中文</a> · <a href="index-ko.html" hreflang="ko">한국어</a></p>
 <h1>Mahjong Efficiency Support</h1>
 <p class="muted">Learn tile efficiency with real-game discard problems</p>
+<p class="stores"><a href="https://play.google.com/store/apps/details?id=jp.nakajimano.mahjongefficiency">Get it on Google Play</a></p>
 <h2>Contact</h2>
 <p>Please send bug reports and feedback to <a href="mailto:mebaegames@gmail.com">mebaegames@gmail.com</a>. It helps if you include your device, OS version, and what happened.</p>
 <h2>FAQ</h2>
-<p><strong>My rating disappeared after changing phones</strong><br>When moving from iPhone to iPhone, your data transfers automatically if iCloud Keychain is on. If it did not, or if you are moving to or from Android, open Settings on the old device, choose &quot;Move to another device&quot; to show a code, and enter it under &quot;Enter a transfer code&quot; in Settings on the new device. A code is valid for 30 minutes and can be used once. After transferring, the old device can no longer play. If you no longer have the old device, your rating and history cannot be restored.</p>
-<p><strong>I want to delete my data</strong><br>Use &quot;Delete all data&quot; in Settings to delete the anonymous player data on the server (anonymous ID, rating, answer history) and the player data and saved game records on your device.</p>
+<p><strong>My rating disappeared after changing phones or reinstalling</strong><br>When moving from iPhone to iPhone, your data transfers automatically if iCloud Keychain is on. Android does not carry app data over automatically, and uninstalling the app also removes your record from the device. If your data did not transfer, if you are moving to or from Android, or before reinstalling the app on Android, open Settings on the old device (or in the app before uninstalling it), choose &quot;Move to another device&quot; to show a code, and enter it under &quot;Enter a transfer code&quot; in Settings on the new device. A code is valid for 30 minutes and can be used once. After transferring, the old device can no longer play. If you no longer have the old device, your rating and history cannot be restored.</p>
+<p id="delete-data"><strong>I want to delete my data</strong><br>Use &quot;Delete all data&quot; in Settings to delete the anonymous player data on the server (anonymous ID, rating, answer history) and the player data and saved game records on your device. If you cannot open the app or delete from Settings, email mebaegames@gmail.com with your Player number (shown in Settings) to request deletion.</p>
 <p><strong>I cannot start a Rate challenge</strong><br>Rate challenge is free up to 3 sets per day. After that, watching one ad adds one more set. The count resets to 3 each day. An unfinished set can always be resumed.</p>
 <p><strong>&quot;Cannot connect to the server&quot; appears</strong><br>Rate challenge and Efficiency analyzer need a network connection. Please try again where you have a signal.</p>
-<p><strong>About ads</strong><br>Ads are shown with Google AdMob. We do not use personalized ads and do not ask for tracking permission.</p>
+<p><strong>About ads</strong><br>Ads are shown with Google AdMob. We do not use personalized ads. On iOS we do not ask for tracking permission. On Android, Google may still use the advertising ID for frequency capping and fraud prevention even for non-personalized ads; you can reset or delete it in your device settings.</p>
 <p><strong>My post disappeared</strong><br>The operator may remove inappropriate posts in &quot;Everyone&#x27;s Nanikiru&quot;, such as advertising, harassment, or content unrelated to mahjong. See &quot;About posts&quot; in the Privacy Policy for details.</p>
 <p><strong>I cannot post (5 per day)</strong><br>You can post to &quot;Everyone&#x27;s Nanikiru&quot; up to 5 times per day. You can post again the next day.</p>
 <nav><a href="privacy-en.html">Privacy Policy</a></nav>
