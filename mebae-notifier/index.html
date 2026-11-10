@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mebae Studio | サポートとプライバシー</title>
+<style>
+  :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.7; }
+  body { margin: 0 auto; max-width: 46rem; padding: 2rem 1.25rem 4rem; }
+  h1, h2 { line-height: 1.25; }
+  section { margin-top: 2.5rem; }
+  code { overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<header><h1>Mebae Studio</h1><p>作品の公開、アップデート、テスター募集の告知を作るiPhoneアプリです。</p></header>
+<main>
+<section aria-labelledby="support">
+<h2 id="support">サポート</h2>
+<p>不具合やご意見は <a href="mailto:mebaegames@gmail.com">mebaegames@gmail.com</a> へお知らせください。アプリのバージョン、iOSのバージョン、問題が起きた操作を添えてください。APIトークンやパスワードは送らないでください。</p>
+<h3>GitHubの通知</h3>
+<p>設定でGitHubの通知リポジトリを登録し、通知画面で更新します。非公開リポジトリでは、対象リポジトリに限定し、Contentsの読み取り権限を持つFine-grainedトークンを設定してください。既存の通知処理はGitHub Actionsで動作します。</p>
+<h3>Xのアカウント接続</h3>
+<p>X Developer ConsoleでNative Appを設定し、Callback URIに <code>studio.mebae.notifier://oauth/x</code> を指定します。公開Client IDをアプリのX接続設定に入力します。アカウントの読み取りにはX APIのクレジットがかかる場合があります。投稿はXの投稿画面で確定します。</p>
+</section>
+<section aria-labelledby="privacy">
+<h2 id="privacy">プライバシーポリシー</h2>
+<p>作品設定、告知の下書き、設定したリポジトリのURLはiPhoneのアプリ領域に保存します。GitHubのトークンは端末のキーチェーンに保存します。設定の「GitHubの接続情報を削除」から、保存したトークンとリポジトリの設定を削除できます。</p>
+<p>通知を更新すると、リポジトリ情報と設定済みのトークンをGitHubに送って、通知履歴を読み取ります。Xの接続確認では、Xの認証画面とAPIを使用します。Xのアクセストークンは接続確認の間だけアプリのメモリで使用します。Xの投稿画面を開くと、選んだ告知文がXに渡ります。</p>
+<p>App Storeの公開情報を確認するときは、入力したアプリIDと国コードをAppleに送ります。接続先でのデータの取り扱いには、各サービスのプライバシーポリシーが適用されます。</p>
+<ul>
+<li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシー</a></li>
+<li><a href="https://x.com/privacy">Xのプライバシー</a></li>
+<li><a href="https://www.apple.com/jp/legal/privacy/">Appleのプライバシー</a></li>
+</ul>
+<p>開発元が運営するサーバーへの転送、アクセス解析、広告、アプリをまたぐトラッキングは行いません。問い合わせに含まれる情報は、問い合わせへの対応に使います。</p>
+</section>
+</main>
+</body>
+</html>
