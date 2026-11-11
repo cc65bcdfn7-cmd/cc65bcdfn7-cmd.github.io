@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "catalogRevision": "2026-11-11T22:28:46.570Z",
+  "enabled": true,
+  "cacheTTLSeconds": 86400,
+  "apps": []
+}
