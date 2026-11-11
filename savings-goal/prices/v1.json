@@ -1,0 +1,437 @@
+{
+  "formatVersion": 1,
+  "revision": 2026111201,
+  "data": {
+    "schemaVersion": 1,
+    "publishedAt": "2026-11-12",
+    "plans": [
+      {
+        "id": "iijmio-giga-d-2026-11",
+        "seriesId": "iijmio-giga-d",
+        "provider": "IIJ（IIJmio）",
+        "name": "IIJmio ギガプラン 音声（ドコモ回線）",
+        "network": "docomo",
+        "type": "mvno",
+        "status": "published",
+        "effectiveFrom": null,
+        "effectiveUntil": "2026-11-30",
+        "verifiedOn": "2026-11-12",
+        "reviewDue": "2026-12-12",
+        "officialUrl": "https://www.iijmio.jp/gigaplan/",
+        "sources": [
+          "https://help.iijmio.jp/answer/602dc1d407f19b0012186e68/",
+          "https://www.iijmio.jp/hdc/spec/",
+          "https://www.iijmio.jp/info/iij/1787640597.html",
+          "https://help.iijmio.jp/answer/61396b9d98bf9c001935a5ae/",
+          "https://help.iijmio.jp/answer/61138e5c2b2265001db023bc/",
+          "https://www.iijmio.jp/hdd/care/universal.html",
+          "https://www.iijmio.jp/hdd/care/telephonerelay.html"
+        ],
+        "baseMonthlyFee": 3,
+        "dataOptions": [
+          {
+            "id": "2gb",
+            "label": "2GB",
+            "dataMb": 2048,
+            "price": 850,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "5gb",
+            "label": "5GB",
+            "dataMb": 5120,
+            "price": 950,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "10gb",
+            "label": "10GB",
+            "dataMb": 10240,
+            "price": 1400,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "15gb",
+            "label": "15GB",
+            "dataMb": 15360,
+            "price": 1600,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "25gb",
+            "label": "25GB",
+            "dataMb": 25600,
+            "price": 2000,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "35gb",
+            "label": "35GB",
+            "dataMb": 35840,
+            "price": 2400,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "45gb",
+            "label": "45GB",
+            "dataMb": 46080,
+            "price": 3300,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "55gb",
+            "label": "55GB",
+            "dataMb": 56320,
+            "price": 3900,
+            "renewalDays": 0,
+            "throttledKbps": null
+          }
+        ],
+        "stepPricing": false,
+        "initialFee": 3734,
+        "callRatePer30Sec": 11,
+        "callOptions": [
+          {
+            "id": "5min",
+            "label": "通話定額5分+",
+            "monthlyFee": 500,
+            "freeSecondsPerCall": 300,
+            "freeSecondsPerMonth": null,
+            "unlimited": false
+          },
+          {
+            "id": "10min",
+            "label": "通話定額10分+",
+            "monthlyFee": 700,
+            "freeSecondsPerCall": 600,
+            "freeSecondsPerMonth": null,
+            "unlimited": false
+          },
+          {
+            "id": "unlimited",
+            "label": "かけ放題+",
+            "monthlyFee": 1400,
+            "freeSecondsPerCall": null,
+            "freeSecondsPerMonth": null,
+            "unlimited": true
+          }
+        ],
+        "voicemail": {
+          "available": true,
+          "monthlyFee": 330
+        },
+        "carrierEmail": {
+          "available": false,
+          "monthlyFee": 0
+        },
+        "hasShopSupport": false,
+        "supportsEsim": true,
+        "supportsPhysicalSim": true,
+        "throttledKbps": 300,
+        "discounts": [],
+        "campaigns": [],
+        "drawbacks": [
+          "申し込み・手続きは公式サイトからのオンラインが前提で、店舗での相談は比べる前提にしていない",
+          "データを使い切ると最大300kbpsになる。3日間で366MBを超える使い方をすると、さらに制限されることがある",
+          "音声プランにメールの機能（キャリアメール）は付かない",
+          "家族割引・セット割（光回線など）は、条件があるため金額に含めていない"
+        ],
+        "checkBeforeSwitch": [
+          "使っている端末が IIJmio で使えるか（動作確認の一覧）と、申し込みの時の本人確認の方法を、公式サイトで確かめる",
+          "この比較は公式サイトのオンラインの申し込みを前提にしている。店舗の窓口での申し込みやサポートとは別（店舗での費用・手順は含めていない）",
+          "申し込みの日が2026年12月1日以降だと、事務手数料が3,300円から3,850円になる。この版の初期費用3,734円は11月30日までの申し込みの額（12月1日以降は4,284円で計算する）",
+          "このプランにはキャリアメールは付かない。元キャリアの別契約で継続できる場合があるため条件と費用を公式で確認（比較には未算入）",
+          "電話の公的な料金（合計3円ほど）を含んでいる。2026年11月時点で公表されている額で、2027年度以降は変わることがある。この比較は将来の料金を保証するものではない",
+          "SMS・特番・国際電話などの通話料は、見積もりに含めていない",
+          "家族割引（月100円）やセット割（月660円）は、契約や同意などの条件があるため、金額に含めていない。当てはまる場合は公式で確かめる"
+        ],
+        "difficulty": "normal",
+        "hasReferralFee": false,
+        "reviewNotes": [
+          "初期費用: 事務手数料3,300円 + SIM発行料433.4円（タイプDは物理SIM・eSIMとも）= 3,733.4円 を切り上げて3,734円（少なく見積もらない向き）。2026-12-01 の前の申し込みの版",
+          "月額: 公式の音声SIM・eSIMの表（税込）の 2/5/10/15/25/35/45/55GB = 850/950/1,400/1,600/2,000/2,400/3,300/3,900円。選んだ量の定額で、使った量で段階が上がる料金ではない（stepPricing=false）。キャンペーン価格は使っていない。公式の月額は2026-12-01 の前後で変わる発表を見つけていない",
+          "データ量: 公式の表示GB × 1024 をMBとして入れた公称値で、アプリの入力欄と同じ尺度。物理的なMBの定義を確かめたものではない",
+          "baseMonthlyFee 3円: 電話ユニバーサルサービス料2.2円 + 電話リレー1.1円 = 3.3円、1円未満は切り捨てで3円（2026年11月時点の公表額）。2027年のBB年額・2027年4月以降のリレー料は未発表のため含めていない",
+          "電話ユニバーサルサービス料は契約の翌月から。初月は実際より約2円多く見積もる（保守的な過大計上）",
+          "割引（家族100円・セット660円）とキャンペーンは、条件をすべて表せないため入れていない（discounts・campaigns は空）。留守番電話は月330円、キャリアメールは使えない",
+          "公式の費用の表・案内の範囲で、独立した発送料の記載は見つけていない。送料の有無は断定せず、申し込み画面の最終の合計を確かめる前提",
+          "通話: 30秒11円。定額は5分500円・10分700円・かけ放題1,400円。SMS・特番・国際電話は含めない",
+          "確認日 2026-11-12。出典は公式の一次情報だけ"
+        ]
+      },
+      {
+        "id": "iijmio-giga-d-2026-12",
+        "seriesId": "iijmio-giga-d",
+        "provider": "IIJ（IIJmio）",
+        "name": "IIJmio ギガプラン 音声（ドコモ回線・2026-12-01 からの申し込み）",
+        "network": "docomo",
+        "type": "mvno",
+        "status": "published",
+        "effectiveFrom": "2026-12-01",
+        "effectiveUntil": null,
+        "verifiedOn": "2026-11-12",
+        "reviewDue": "2026-12-12",
+        "officialUrl": "https://www.iijmio.jp/gigaplan/",
+        "sources": [
+          "https://help.iijmio.jp/answer/602dc1d407f19b0012186e68/",
+          "https://www.iijmio.jp/hdc/spec/",
+          "https://www.iijmio.jp/info/iij/1787640597.html",
+          "https://help.iijmio.jp/answer/61396b9d98bf9c001935a5ae/",
+          "https://help.iijmio.jp/answer/61138e5c2b2265001db023bc/",
+          "https://www.iijmio.jp/hdd/care/universal.html",
+          "https://www.iijmio.jp/hdd/care/telephonerelay.html"
+        ],
+        "baseMonthlyFee": 3,
+        "dataOptions": [
+          {
+            "id": "2gb",
+            "label": "2GB",
+            "dataMb": 2048,
+            "price": 850,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "5gb",
+            "label": "5GB",
+            "dataMb": 5120,
+            "price": 950,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "10gb",
+            "label": "10GB",
+            "dataMb": 10240,
+            "price": 1400,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "15gb",
+            "label": "15GB",
+            "dataMb": 15360,
+            "price": 1600,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "25gb",
+            "label": "25GB",
+            "dataMb": 25600,
+            "price": 2000,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "35gb",
+            "label": "35GB",
+            "dataMb": 35840,
+            "price": 2400,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "45gb",
+            "label": "45GB",
+            "dataMb": 46080,
+            "price": 3300,
+            "renewalDays": 0,
+            "throttledKbps": null
+          },
+          {
+            "id": "55gb",
+            "label": "55GB",
+            "dataMb": 56320,
+            "price": 3900,
+            "renewalDays": 0,
+            "throttledKbps": null
+          }
+        ],
+        "stepPricing": false,
+        "initialFee": 4284,
+        "callRatePer30Sec": 11,
+        "callOptions": [
+          {
+            "id": "5min",
+            "label": "通話定額5分+",
+            "monthlyFee": 500,
+            "freeSecondsPerCall": 300,
+            "freeSecondsPerMonth": null,
+            "unlimited": false
+          },
+          {
+            "id": "10min",
+            "label": "通話定額10分+",
+            "monthlyFee": 700,
+            "freeSecondsPerCall": 600,
+            "freeSecondsPerMonth": null,
+            "unlimited": false
+          },
+          {
+            "id": "unlimited",
+            "label": "かけ放題+",
+            "monthlyFee": 1400,
+            "freeSecondsPerCall": null,
+            "freeSecondsPerMonth": null,
+            "unlimited": true
+          }
+        ],
+        "voicemail": {
+          "available": true,
+          "monthlyFee": 330
+        },
+        "carrierEmail": {
+          "available": false,
+          "monthlyFee": 0
+        },
+        "hasShopSupport": false,
+        "supportsEsim": true,
+        "supportsPhysicalSim": true,
+        "throttledKbps": 300,
+        "discounts": [],
+        "campaigns": [],
+        "drawbacks": [
+          "申し込み・手続きは公式サイトからのオンラインが前提で、店舗での相談は比べる前提にしていない",
+          "データを使い切ると最大300kbpsになる。3日間で366MBを超える使い方をすると、さらに制限されることがある",
+          "音声プランにメールの機能（キャリアメール）は付かない",
+          "家族割引・セット割（光回線など）は、条件があるため金額に含めていない"
+        ],
+        "checkBeforeSwitch": [
+          "使っている端末が IIJmio で使えるか（動作確認の一覧）と、申し込みの時の本人確認の方法を、公式サイトで確かめる",
+          "この比較は公式サイトのオンラインの申し込みを前提にしている。店舗の窓口での申し込みやサポートとは別（店舗での費用・手順は含めていない）",
+          "2026年12月1日からの申し込みの事務手数料は3,850円（申し込みの日で決まり、開通の日ではない）。この版の初期費用4,284円は、その額とSIMの発行料を合わせたもの",
+          "このプランにはキャリアメールは付かない。元キャリアの別契約で継続できる場合があるため条件と費用を公式で確認（比較には未算入）",
+          "電話の公的な料金（合計3円ほど）を含んでいる。2026年11月時点で公表されている額で、2027年度以降は変わることがある。この比較は将来の料金を保証するものではない",
+          "SMS・特番・国際電話などの通話料は、見積もりに含めていない",
+          "家族割引（月100円）やセット割（月660円）は、契約や同意などの条件があるため、金額に含めていない。当てはまる場合は公式で確かめる"
+        ],
+        "difficulty": "normal",
+        "hasReferralFee": false,
+        "reviewNotes": [
+          "初期費用: 2026-12-01 からの事務手数料3,850円 + SIM発行料433.4円 = 4,283.4円 を切り上げて4,284円。基準は申し込みの日で、開通の日ではない",
+          "月額: 公式の音声SIM・eSIMの表（税込）の 2/5/10/15/25/35/45/55GB = 850/950/1,400/1,600/2,000/2,400/3,300/3,900円。選んだ量の定額で、使った量で段階が上がる料金ではない（stepPricing=false）。キャンペーン価格は使っていない。公式の月額は2026-12-01 の前後で変わる発表を見つけていない",
+          "データ量: 公式の表示GB × 1024 をMBとして入れた公称値で、アプリの入力欄と同じ尺度。物理的なMBの定義を確かめたものではない",
+          "baseMonthlyFee 3円: 電話ユニバーサルサービス料2.2円 + 電話リレー1.1円 = 3.3円、1円未満は切り捨てで3円（2026年11月時点の公表額）。2027年のBB年額・2027年4月以降のリレー料は未発表のため含めていない",
+          "電話ユニバーサルサービス料は契約の翌月から。初月は実際より約2円多く見積もる（保守的な過大計上）",
+          "割引（家族100円・セット660円）とキャンペーンは、条件をすべて表せないため入れていない（discounts・campaigns は空）。留守番電話は月330円、キャリアメールは使えない",
+          "公式の費用の表・案内の範囲で、独立した発送料の記載は見つけていない。送料の有無は断定せず、申し込み画面の最終の合計を確かめる前提",
+          "通話: 30秒11円。定額は5分500円・10分700円・かけ放題1,400円。SMS・特番・国際電話は含めない",
+          "確認日 2026-11-12。出典は公式の一次情報だけ"
+        ]
+      },
+      {
+        "id": "nihontsushin-minna-2026-11",
+        "seriesId": "nihontsushin-minna",
+        "provider": "日本通信",
+        "name": "合理的みんなのプラン（20GBまでの見積もり）",
+        "network": "docomo",
+        "type": "mvno",
+        "status": "published",
+        "effectiveFrom": null,
+        "effectiveUntil": null,
+        "verifiedOn": "2026-11-12",
+        "reviewDue": "2026-12-12",
+        "officialUrl": "https://www.nihontsushin.com/plan/planminna.html",
+        "sources": [
+          "https://www.nihontsushin.com/plan/planminna.html",
+          "https://www.nihontsushin.com/plan/planminna_detail.html",
+          "https://www.nihontsushin.com/contract_notice/TermOfUseNotesPanel_NT.pdf",
+          "https://www.nihontsushin.com/support/faq.html",
+          "https://www.nihontsushin.com/info/infoPhoneRelayService.html",
+          "https://www.nihontsushin.com/info/info_universal_202512.html",
+          "https://www.nihontsushin.com/info/info_bbuniversal_2026.html"
+        ],
+        "baseMonthlyFee": 3,
+        "dataOptions": [
+          {
+            "id": "20gb",
+            "label": "20GBまで",
+            "dataMb": 20480,
+            "price": 1390,
+            "renewalDays": 0,
+            "throttledKbps": null
+          }
+        ],
+        "stepPricing": false,
+        "initialFee": 3300,
+        "callRatePer30Sec": 11,
+        "callOptions": [
+          {
+            "id": "incl-70min",
+            "label": "月70分まで無料（基本料に含む）",
+            "monthlyFee": 0,
+            "freeSecondsPerCall": null,
+            "freeSecondsPerMonth": 4200,
+            "unlimited": false
+          },
+          {
+            "id": "incl-5min",
+            "label": "1回5分まで無料（基本料に含む）",
+            "monthlyFee": 0,
+            "freeSecondsPerCall": 300,
+            "freeSecondsPerMonth": null,
+            "unlimited": false
+          },
+          {
+            "id": "unlimited",
+            "label": "かけ放題オプション",
+            "monthlyFee": 1600,
+            "freeSecondsPerCall": null,
+            "freeSecondsPerMonth": null,
+            "unlimited": true
+          }
+        ],
+        "voicemail": {
+          "available": true,
+          "monthlyFee": 330
+        },
+        "carrierEmail": {
+          "available": false,
+          "monthlyFee": 0
+        },
+        "hasShopSupport": false,
+        "supportsEsim": true,
+        "supportsPhysicalSim": true,
+        "throttledKbps": null,
+        "discounts": [],
+        "campaigns": [],
+        "drawbacks": [
+          "この比較は月20GBまでの使い方の料金。20GBを超えると、公式では1GBごとに220円が加わる（上限50GB）が、その分は含めていない",
+          "データを使い切った後の速度の数値が公表されていない（速度の条件を付けた時は比べない）",
+          "申し込み・手続きはオンラインとアプリが前提で、店舗での相談は比べる前提にしていない",
+          "独自のメールサービスは無く、キャリアメールは使えない"
+        ],
+        "checkBeforeSwitch": [
+          "本人確認に、マイナンバーカード、NFC対応のスマホ、有効な電子証明書とその暗証番号、日本通信アプリが要る。手続きは簡単とは限らない",
+          "契約は成人が対象。クレジットカード・デビットカードは、契約者本人と同じ名義のものが要る",
+          "使っている端末がVoLTEに対応し、この回線で使えるか、公式の動作確認で確かめる",
+          "通話の無料枠は、月70分までか1回5分までのどちらか。比べる金額は有利な方で計算している。かけ放題は月1,600円の追加",
+          "電話の公的な料金（合計3円ほど）を含んでいる。契約の約款の額で計算していて、公式のお知らせの額と1円に満たない差が出ることがある。2026年11月時点の額で、2027年度以降は変わることがある。この比較は将来の料金を保証するものではない",
+          "SMS・特番・国際電話などの利用ごとの料金は、見積もりに含めていない",
+          "今のキャリアメールは使えなくなることがある。引き継ぎは公式で確かめる"
+        ],
+        "difficulty": "normal",
+        "hasReferralFee": false,
+        "reviewNotes": [
+          "20GBまでの見積もり: 公式の基本は月1,390円で20GBまで。21GB以降は、使った量に応じて1GBごとに220円が加わる（上限50GBで7,990円）。この比較は20GB以内の使い方だけを金額にしていて、20GBを超える分は含めていない",
+          "データ量: 公式の表示20GB × 1024 = 20,480MBの公称値（アプリの入力欄と同じ尺度）。使った量で段階が上がる料金ではなく、20GBを上限とする1つの料金（stepPricing=false）",
+          "初期費用3,300円（新規契約の事務手数料）。SIM再発行3,300円・eSIMの初回3回まで0円は、新規契約の追加費用ではないため入れていない。独立した発送料の記載は見つけていない。送料の有無は断定せず、申し込み画面の最終の合計を確かめる前提",
+          "baseMonthlyFee 3円: 契約の約款（PDF）p25 の電話ユニバーサルサービス料2円 + 電話リレー1円（2026年8月時点）。公式のお知らせ（リレー1.1円など）との端数の差は月に1円に満たない小さな見込みの違い。端数の扱いは公式で確かめられていない。2027年度以降の料金は未発表で含めていない",
+          "通話: 月70分までの無料か、1回5分までの無料のどちらかを選べる（公式の標準は月70分）。比較では有利な方を選ぶ。超えた分は30秒11円（1回ごとに30秒単位で切り上げ）。かけ放題は月1,600円の追加",
+          "留守番電話は月330円（契約の約款 p25）。キャリアメールは使えない（独自のメールサービスなし）。割引・キャンペーン・紹介報酬は入れていない",
+          "データを使い切った後の速度は数値が公表されていない（throttledKbps は null）",
+          "利用ごとの料金（SMS・特番・国際電話など）は含めない",
+          "確認日 2026-11-12。出典は公式の一次情報だけ"
+        ]
+      }
+    ]
+  }
+}
