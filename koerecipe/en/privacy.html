@@ -23,12 +23,14 @@ nav { margin-top: 40px; font-size: .9rem; }
 <body>
 <main>
 <h1>Koe Recipe Privacy Policy</h1>
-<p>Last updated: November 18, 2026</p>
+<p>Last updated: November 24, 2026</p>
 <p>This page explains how Koe Recipe (the &quot;App&quot;) handles your information. The Japanese version of this policy (<a href="https://cc65bcdfn7-cmd.github.io/koerecipe/privacy.html">https://cc65bcdfn7-cmd.github.io/koerecipe/privacy.html</a>) is the original. This English text has the same meaning.</p>
 <h2>1. Summary</h2>
 <ul>
 <li>There is no separate sign-up. Posting, liking and reporting require you to be signed in to iCloud. These community features are available only in the Japanese version of the App.</li>
 <li>Public posts, likes and reports are sent to Apple&#x27;s CloudKit. Your voice, menus and shopping lists are never sent.</li>
+<li>When you use Siri or Shortcuts, Apple&#x27;s Siri handles your voice under Apple&#x27;s terms. The App does not receive that voice or its text. This is separate from the App&#x27;s own voice control, which is processed only on your device.</li>
+<li>In Settings, &quot;Export saved data&quot; lets you turn what is stored on your device into a file. It is shared only if you choose to share it. Nothing is sent to the developer.</li>
 <li>All cooking and menu features are free. Ads (Google AdMob) appear on the Home and Menu Roulette screens.</li>
 <li>If you buy the monthly auto-renewing subscription &quot;Ad-Free&quot;, ads stop appearing.</li>
 <li>No ads are shown while you cook (during voice control, reading aloud, timers and confirmations), or on the recipe, weekly menu and shopping list screens.</li>
@@ -37,16 +39,21 @@ nav { margin-top: 40px; font-size: .9rem; }
 <h2>2. Information stored on your device</h2>
 <p>The App stores the following on your iPhone. If you use iPhone backups (iCloud or computer backups), this data may be included in them.</p>
 <ul>
-<li>Your weekly menu and shopping checks</li>
+<li>Your weekly menu (including settings such as servings) and shopping checks</li>
+<li>Saved weeks (menu combinations) and a copy of the previous week from before a swap</li>
 <li>Your place in a recipe while cooking (so you can resume)</li>
-<li>Your favorite recipes</li>
-<li>The types of dishes you pick for Menu Roulette (main, side, soup)</li>
+<li>Your favorite recipes, and your favorites folders (name, color, icon and the recipes in them)</li>
+<li>Notes you write for each recipe</li>
+<li>Your text size for cooking (standard, large, extra large)</li>
+<li>The servings you last chose in a recipe</li>
+<li>The types of dishes you pick for Menu Roulette (main, side, soup), and whether the filters (favorites only, within 20 minutes) are on or off</li>
+<li>Post drafts, photos, your nickname and so on (see &quot;Posts&quot; below)</li>
 </ul>
-<p>This is not sent to the developer&#x27;s servers. If you delete the App, the data on your device is deleted too.</p>
+<p>Of your post drafts, only what you choose to publish is sent, to Apple&#x27;s CloudKit, as described in &quot;Posts&quot; below. Nothing else is sent to the developer&#x27;s servers. If you delete the App, the data on your device is deleted too.</p>
 <h2>3. Microphone and speech recognition</h2>
 <p>During cooking, the App asks for microphone and speech recognition permission so you can move through steps with voice commands such as &quot;next&quot; or &quot;repeat&quot;.</p>
 <ul>
-<li>Your voice is turned into text only inside your iPhone (on-device speech recognition). Neither your voice nor the text is sent outside your device. This applies to every language the App supports, including English.</li>
+<li>Your voice is turned into text only inside your iPhone (on-device speech recognition). Neither your voice nor the text is sent outside your device. This is about the App&#x27;s own voice control. Siri is separate; see &quot;Siri and Shortcuts (1.5)&quot; below. This applies to every language the App supports, including English.</li>
 <li>If on-device speech recognition is not available on your iPhone for the language you are using, voice control is not available. The App does not switch to server-based recognition, and does not switch to another language&#x27;s recognition.</li>
 <li>Voice recordings are not saved.</li>
 <li>You can change the permissions anytime in the iPhone&#x27;s Settings. Without them, you can still use recipes with on-screen controls.</li>
@@ -77,17 +84,33 @@ nav { margin-top: 40px; font-size: .9rem; }
 <p>Posts, likes and reports are handled only to provide those features, and the App does not analyze your usage except for ads. What Google&#x27;s ad SDK collects and how tracking permission is handled are described in &quot;4. Ads&quot; above. If you do not allow tracking, the advertising identifier (IDFA) is not used.</p>
 <h2>7. Children</h2>
 <p>The App handles a nickname when you post. Do not put contact details or personal information in a post. What Google&#x27;s ad SDK receives is described in &quot;4. Ads&quot;. Ad content is limited to all ages.</p>
-<h2>Posts (Japanese version only)</h2>
+<h2>Posts (Japanese version only; 1.2 and 1.5)</h2>
 <p>Posting, browsing and liking community recipes (&quot;Minna no Recipe&quot;) is available only when the App is used in Japanese in version 1.3. The following applies to people who use these features in the Japanese version. It is included here for completeness.</p>
 <ul>
-<li>Published recipes (dish name, ingredients, amounts, steps, type, time, servings), photos and nicknames, and likes and reports, are stored in Apple&#x27;s CloudKit. They are linked to your CloudKit user record ID and creation time. The purpose is the App&#x27;s own features: publishing posts, showing likes and responding to inappropriate content. Post content is not used for ads or tracking.</li>
-<li>Posts are published after operator review. After approval, the text, photo, nickname and post time are shown to the public. Content that is in review or rejected is also stored in the CloudKit public database and may be readable from outside the App. Reports are not made public; they are handled by the reporter and the operator. The operator reviews reports and can hide posts and authors that violate the rules.</li>
-<li>For photos, the App receives only the one you pick with PhotosPicker, removes original metadata such as location before publishing, and converts it to a JPEG of 500 KB or less. It cannot remove what appears in the photo, or locations or personal information you write in the text yourself.</li>
-<li>What you write and the original photo are kept on your device whether publishing succeeds or fails. iPhone backups may apply to drafts and originals. Blocks, hidden reports of your own and the mark of agreeing to the terms are also kept on your device.</li>
-<li>You can remove your own post from public view in the App. Removing it does not delete the original on your device. Deleting the App also deletes the originals on your device. Posts already published are not removed just by deleting the App, so delete the post first or ask support. The operator cannot delete copies that others have saved.</li>
+<li>Published recipes (dish name, ingredients, amounts, steps, type, time, servings, tips), photos (finished-dish photos and step photos) and nicknames, and likes and reports, are stored in Apple&#x27;s CloudKit. Tips are optional, up to 500 characters. They are linked to your CloudKit user record ID and creation time. The purpose is the App&#x27;s own features: publishing posts, showing likes and responding to inappropriate content. Post content is not used for ads or tracking.</li>
+<li>Posts are published after operator review. After approval, the text, tips, photos, nickname and post time are shown to the public. Content that is in review or rejected (including tips and all photos) is also stored in the CloudKit public database and may be readable from outside the App. Reports are not made public; they are handled by the reporter and the operator. The operator reviews reports and can hide posts and authors that violate the rules.</li>
+<li>For photos, the App receives only the ones you pick with PhotosPicker. One post can have up to 4 finished-dish photos and up to 10 step photos (one photo per step). Before publishing, the App redraws each photo without the original metadata such as location, and converts it to a JPEG of 500 KB or less for a finished-dish photo, or 200 KB or less for a step photo. It cannot remove what appears in the photo, or locations or personal information you write in the text or tips yourself.</li>
+<li>What you write (including tips) and the original photos are kept on your device whether publishing succeeds or fails. The order of your photos and pending records for removing them from public view are also kept on your device. iPhone backups may apply to drafts and originals. Blocks, hidden reports of your own and the mark of agreeing to the terms are also kept on your device.</li>
+<li>You can remove your own post from public view in the App. Removing it also removes the post&#x27;s photos (finished-dish and step) from public view. If this could not be done because you were offline, the App keeps a pending record on your device and tries again later. Removing it does not delete the original on your device. Deleting the App also deletes the originals on your device. Posts already published are not removed just by deleting the App, so delete the post first or ask support. The operator cannot delete copies that others have saved.</li>
 <li>You can report text or photos and block authors from the recipe screen. Reports that have not been sent are kept on your device and resent after you reconnect. For deletion requests and inquiries, contact support. The operator deletes report records that are no longer needed.</li>
 </ul>
 <p>On the operator&#x27;s devices only, notification permission is requested the first time the review screen is used. Notifications about posts waiting for review include only the post title, not photos or text.</p>
+<h2>Siri and Shortcuts (1.5)</h2>
+<ul>
+<li>You can use Siri or Shortcuts for &quot;read the ingredients&quot;, &quot;next step&quot; and &quot;today&#x27;s menu&quot;. Each one runs only after your iPhone is unlocked.</li>
+<li>The App receives only which action was called. It does not receive, save or send what Siri heard of your voice, or its text.</li>
+<li>The App gives Siri a reply sentence (for &quot;today&#x27;s menu&quot;, today&#x27;s dish names). Siri reads it aloud and shows it.</li>
+<li>What you say to Siri is handled by Apple&#x27;s Siri under Apple&#x27;s terms. The App does not process it only on your device. For details, see Apple&#x27;s privacy information.</li>
+<li>The voice control in &quot;3. Microphone and speech recognition&quot; is a feature inside the App. It works separately from Siri.</li>
+</ul>
+<h2>Exporting your saved data (1.5)</h2>
+<ul>
+<li>In Settings, &quot;Export saved data&quot; can turn what is stored on your device into a JSON file. The file is created only when you press &quot;Create file&quot;.</li>
+<li>It includes favorites, folders, notes, your place in a recipe, menus, saved weeks, Roulette settings, text size and the servings you last chose, your post nickname and your own drafts (including tips and photos with metadata such as location removed), the number of blocks and reports, and so on.</li>
+<li>It does not include account information, CloudKit identifiers, purchase and ad information, device identifiers, or the content of other people&#x27;s posts.</li>
+<li>The file is created in the App&#x27;s temporary storage and is deleted when you leave that screen. It leaves the App only when you press &quot;Share&quot; and choose a destination in the iPhone&#x27;s share sheet. How the destination handles it depends on the destination.</li>
+<li>Creating and sharing the export does not send anything to the developer.</li>
+</ul>
 <h2>8. Changes</h2>
 <p>When this policy changes, this page is updated.</p>
 <h2>9. Contact</h2>
